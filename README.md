@@ -16,7 +16,7 @@ Aplikasi berbasis web untuk manajemen dan monitoring absensi peserta magang seca
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/xxfizlmi/Winnicode-Hub.git
+git clone https://github.com/xxfizlmi/hub-winnicode.git
 cd Winnicode-Hub
 ```
 
