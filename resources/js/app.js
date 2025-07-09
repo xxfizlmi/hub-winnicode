@@ -1,4 +1,4 @@
-import "./plugins/popper.min";
+// import "./plugins/popper.min";
 import "./icon/custom-icon";
 import "./bootstrap";
 import "./component";

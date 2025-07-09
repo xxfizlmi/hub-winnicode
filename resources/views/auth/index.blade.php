@@ -17,7 +17,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- [Favicon] icon -->
-    <link rel="icon" href="{{ asset('assets/images/logo/logo.png') }}" type="image/x-icon" />
+    <link rel="icon" href="{{ asset('assets/images/logo/logohubw.png') }}" type="image/x-icon" />
 
     <!-- [Font] Family -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap"

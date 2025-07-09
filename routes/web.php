@@ -11,6 +11,10 @@ use App\Http\Controllers\Api\AuthApiController;
 //     return view('welcome');
 // });
 // Route::post('/api/login', [AuthApiController::class, 'login'])->name('login');
+Route::get('/', function () {
+    return redirect('login');
+});
+
 Route::get('/login', [AuthController::class, 'index'])->name('login');
 Route::post('/login', [AuthController::class, 'authenticate'])->name('login');
 Route::get('/logout', [AuthController::class, 'logout'])->name('logout');

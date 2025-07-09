@@ -19,10 +19,4 @@ return new class extends Migration
     /**
      * Reverse the migrations.
      */
-    public function down(): void
-    {
-        Schema::table('verifications', function (Blueprint $table) {
-            $table->unsignedBigInteger('mentor_id')->nullable(false)->change();
-        });
-    }
 };

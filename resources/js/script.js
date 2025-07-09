@@ -4591,5 +4591,4 @@ function nav_image_change(value) {
         },
     ]);
 });
-//# sourceMappingURL=feather.min.js.map
 
